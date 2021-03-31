@@ -1,0 +1,52 @@
+body {
+    background-color: #007C77;
+    align-items: center;
+    /* display: flex; */
+}
+
+#loginPanel {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    background:aquamarine;
+    border-radius: 5px;
+    width: 50vh;
+    height: 25vh;
+    margin: 15vw auto;
+}
+
+#login {
+    display: block;
+}
+
+#form {
+    display:block;
+    align-self: center;
+}
+
+#CPF, #senha{
+    display: block;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    background-color: aquamarine;
+    outline: none;
+    border-width: 0 0 2px;
+    border-color: #007C77;
+    border-bottom: #007C77;
+}
+#titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#button {
+    padding: 5px 20px;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 10px;
+}
+
+#button:hover{
+    background-color: #5a1e92;
+}
