@@ -1,6 +1,11 @@
-
+var fs = require('fs').promises
 async function verificarCPF() {
-    var cpf = document.getElementById("CPF").value
+    try {
+        var cpf = await ( await fs.readFile('./CPF.txt') ).toString()
+    } catch (error) {
+        console.log(`${error}`)
+        return
+    }
     if(cpf == "") {
         alert("Por favor insira o CPF")
         return
