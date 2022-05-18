@@ -1,1 +1,1 @@
-CPF vai aqui em Inteiro, sem pontos ou hífens.
+CPF vai aqui, sem pontos, nem hífens ou espaços.

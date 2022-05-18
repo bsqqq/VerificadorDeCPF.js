@@ -12,6 +12,7 @@ async function verificarCPF() {
     }
     console.log(`CPF: ${cpf}`)
     var array = cpf.split("")
+    array.length--
     console.log(`Array: ${array}`)
     console.log(`Tamanho do array: ${array.length}`)
     var eValido;
